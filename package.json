@@ -1,0 +1,29 @@
+{
+  "name": "chottubot",
+  "version": "1.0.0",
+  "description": "AI Powered BOT for home search",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm start index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kamesh231/fbbot.git"
+  },
+  "keywords": [
+    "AI",
+    "BOT",
+    "REALESTATE",
+    "HOMESEARCH"
+  ],
+  "author": "Kamesh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kamesh231/fbbot/issues"
+  },
+  "homepage": "https://github.com/kamesh231/fbbot#readme",
+  "dependencies": {
+    "fb-bot-framework": "^0.3.0",
+    "microsoft-adaptivecards": "^0.6.0"
+  }
+}
