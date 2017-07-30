@@ -4,7 +4,8 @@
   "description": "AI Powered BOT for home search",
   "main": "index.js",
   "scripts": {
-    "test": "npm start index.js"
+    "test": "test",
+     "start": "node index.js"
   },
   "repository": {
     "type": "git",
