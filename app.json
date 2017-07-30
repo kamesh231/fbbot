@@ -1,0 +1,35 @@
+{
+  "name": "fbbot_heroku",
+  "scripts": {
+  },
+  "env": {
+    "MICROSOFT_APP_ID": {
+      "required": true
+    },
+    "MICROSOFT_APP_PASSWORD": {
+      "required": true
+    },
+    "MONGODB_URI": {
+      "required": true
+    },
+    "PAGE_ACCESS_TOKEN": {
+      "required": true
+    },
+    "VERIFICATION_TOKEN": {
+      "required": true
+    },
+    "VERIFY_TOKEN": {
+      "required": true
+    }
+  },
+  "formation": {
+  },
+  "addons": [
+    "mongolab"
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
+}
