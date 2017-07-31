@@ -11,8 +11,8 @@ var bot = new FBBotFramework({
 app.use(bodyParser.urlencoded({extended: false}));
 app.use(bodyParser.json());
 
-//app.set('port',(process.env.PORT || 5000));
-app.listen((process.env.PORT || 5000));
+app.set('port',(process.env.PORT || 5000));
+//app.listen((process.env.PORT || 5000));
 app.use('/webhook', bot.middleware());
 
 // Config the Get Started Button and register a callback
