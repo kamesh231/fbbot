@@ -12,9 +12,9 @@ var bot = new FBBotFramework({
 app.use(bodyParser.urlencoded({extended: false}));
 app.use(bodyParser.json());
 
-app.set('port',(process.env.PORT || 5000));
+//app.set('port',(process.env.PORT || 5000));
 console.log("CHOTTUBOT - port Set to env.PORT ");
-//app.listen((process.env.PORT || 5000));
+app.listen((process.env.PORT || 5000));
 app.use('/webhook', bot.middleware());
 console.log("CHOTTUBOT - Middleware intialized");
 // Config the Get Started Button and register a callback
